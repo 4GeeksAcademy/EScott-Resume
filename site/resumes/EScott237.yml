@@ -1,0 +1,169 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Erika
+    last_name: Scott
+    
+    # Define yourself in 4-5 words
+    motto: Always looking to learn more
+    
+    # Focus
+    focus: Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am currently a Government Contractor looking to switch fields and move into the world of tech. 
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: escott2314@gmail.com #optional
+    phone: 703-627-4793 #optional
+    linkedin: https://www.linkedin.com/in/erika-scott22/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: EScott237
+    
+  
+    stack-overflow: 22667977/EScott237
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Sports
+
+      - item: Movies
+
+      - item: Travel
+
+# Your previous education
+education:
+    - degree: MS in Cybersecurity
+      university: National University
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/7/7c/National_University_Logo_PNG.png
+      time: 2021-2022
+      details:
+          - Relevant coursework includes - Cybersecurity Technology, Cybersecurity Toolkit Utilization, Threat Modeling & Intel, Wireless and Mobile Security, Network Security Monitoring and Incident Response, Cloud Security, Ethical Hacking, Red Teaming, Advanced Penetration Testing
+          -	Experience in Linux environment and utilizing tools such as Wireshark, Metasploit, Burpsuite, Aircrack-ng, and Hashcat
+
+    - degree: BBA in Accounting and Finance
+      university: Radford University
+      # optional
+      university_logo: https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/d/ad/dadcaaf4-2e69-5dab-9b6e-42277f213a58/5b098f8816d95.image.jpg?resize=1200%2C1200
+      time: 2006 - 2010
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Case Reviewer
+      time: 2019 - Present
+      company: CACI International Inc
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/CACI_International_logo.svg/2560px-CACI_International_logo.svg.png
+      details:
+
+          - Conduct thorough review and analysis of background investigations, including reports of investigation, to ensure investigations are complete and adhere to DCSA and CACI requirements
+          -	Provide guidance on DCSA investigation requirements to field investigators and record searchers
+          - Maintain quality production that meets DCSA contract requirements
+          -	Identify trends in errors, problem solve, and communicate trends to field investigators, record searchers, and management
+          - Work closely with review team members, field investigators, and record searchers to improve background investigations
+          - Ability to work in a flexible environment with requirements that change daily
+
+    - role: Set Production Assistant/2nd Assistant Director
+      time: 2017-2018
+      company: Freelance
+      # optional
+      details: 
+      
+          - Served as a liaison between Producers, Directors and the Production team
+          - In charge of all paperwork, timecards, and petty cash on set
+          - Making sure that the set ran efficiently and effectively
+          - Ability to work in a team environment with flexibility to changing requirements
+
+    - role: Accounting Support II
+      time: 2015-2017
+      company: Vector Security
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/2/21/Vector_Security_Logo_2014.jpg
+      details:
+
+          - In charge of reviewing, approving, and creating purchase orders for the National Accounts division
+          - Reviewing vendor statements within our Accounts Receivable department
+          -	Review financial statements for accuracy and account reconciliation
+          - Experience with CRM and Great Plains Financial Software
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
